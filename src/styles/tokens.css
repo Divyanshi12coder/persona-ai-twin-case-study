@@ -1,0 +1,50 @@
+:root {
+  /* surfaces */
+  --bg-0: #05070d;
+  --bg-1: #080d1a;
+  --bg-2: #0c1428;
+  --bg-3: #111c36;
+  --panel: rgba(17, 28, 54, 0.55);
+  --panel-solid: #0e1730;
+  --line: rgba(148, 172, 255, 0.13);
+  --line-strong: rgba(148, 172, 255, 0.26);
+
+  /* text on dark */
+  --text: #e8edf7;
+  --text-2: #b4bfd6;
+  --muted: #8b97b3;
+
+  /* accents */
+  --blue: #4d8dff;
+  --blue-2: #7aa7ff;
+  --blue-3: #a9c4ff;
+  --violet: #8b7bff;
+  --ok: #4fd1a1;
+  --warn: #f2b867;
+
+  /* light sections */
+  --light-bg: #f4f6fb;
+  --light-bg-2: #eaeef7;
+  --light-card: #ffffff;
+  --ink: #0b1222;
+  --ink-2: #2b3650;
+  --ink-muted: #56627e;
+  --light-line: #d8deeb;
+  --blue-ink: #2559d6;
+
+  /* type */
+  --font-display: "Sora", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+
+  /* rhythm */
+  --radius-sm: 8px;
+  --radius: 14px;
+  --radius-lg: 22px;
+  --gutter: clamp(16px, 4vw, 32px);
+  --section-y: clamp(84px, 11vw, 148px);
+  --nav-h: 68px;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --shadow-glow: 0 0 0 1px rgba(122, 167, 255, 0.35), 0 10px 40px -12px rgba(77, 141, 255, 0.45);
+}
